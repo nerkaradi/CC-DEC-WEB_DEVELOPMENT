@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+}
+
+.png {
+  background-image: url("https://www.compsa.co.in/assets/contact-us/contact.svg");
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 40rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 100vh;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px #5c5c5c, -10px -10px 30px #ffffff;
+  border: none;
+  width: 30rem;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.form {
+  border: none;
+}
+
+.head2 {
+  margin: 7%;
+}
+
+.field {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #000;
+  width: 10px;
+
+  background-color: #fff;
+}
+
+.field:hover {
+  border-color: #0066cc;
+}
+.field:focus {
+  border-color: #0066cc;
+}
+
+.contact-form input {
+  display: block;
+  width: 300px;
+  margin: 19px auto;
+  padding: 5px;
+  font-size: 13px;
+  outline: none;
+}
+.contact-form textarea:focus {
+    border-color: #0066cc;
+  }
+  
+.contact-form textarea {
+  width: 302px;
+  margin: 4px auto;
+  margin-bottom: 16px;
+  padding: 5px;
+  height: 100px;
+  font-family: Arial;
+  outline: none;
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 320px;
+  height: 40px;
+  margin-top: 0px;
+  background: #0066cc;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  transition: 500ms;
+}
+
+.submit-btn:hover {
+  background-color: rgb(252, 252, 252);
+  color: #000;
+  transition: 500ms;
+  border: solid 5px #0066cc;
+  border-width: 1.5px;
+}
+
+.g-recaptcha {
+  margin: 10px 10px 10px 0px;  
+    
+}
+
+.table1 {
+  margin-left: 150px;
+}
+
+.img1 {
+  height: 500px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 2rem;
+  padding-top: 0.5rem;
+}
+
+.text-area-field {
+  border: solid;
+  border-width: 0.5px;
+  border-color: #7e7e7e;
+  border-radius: 5px;
+}
